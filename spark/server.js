@@ -31,9 +31,9 @@ app.use(express.json());
 // Upon closure the webhook is removed from spark
 
 // Insert your values here
-const sparkAccessToken ='Place your spark personal access token here';
-const targetUrl = 'Place you servers URL here';
-const projectId = 'Place your dialogflow projectId here';
+const sparkAccessToken ='ZDM2NmRmMjQtNTYxNi00MzgxLTkzNTgtNjBjYTQ1NTU4YzYwODU4NTRmYTctOGIz_PF84_741a838c-24cf-4f31-9c1a-65161de93516';
+const targetUrl = 'https://dialogflow.cloud.google.com/#/editAgent/crowdsourcingciscowebex-cquf/';
+const projectId = 'crowdsourcingciscowebex-cquf';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
